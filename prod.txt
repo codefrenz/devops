@@ -1,0 +1,14 @@
+git commands:
+//Connecting code or git clone form GitHub to vscode
+(in vscode terminal:)
+git
+git config --global user.name "codefrenz"
+git config --global user.email "saanvi.rakesh.23@gmail.com"
+git clone https://github.com/codefrenz/devops.git
+//taken from https link under code in github repo named "devops"
+cd devops //goes inside this folder that was created in github
+ls
+//after creating a new file in vscode under devops like "prod.txt", it wont show in github, shows "U" in vscode
+git add prod.txt
+git add .       
+git commit -m "first commit"
